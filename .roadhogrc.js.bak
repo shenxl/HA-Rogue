@@ -1,0 +1,31 @@
+const path = require('path');
+
+const svgSpriteDirs = [
+  path.resolve(__dirname, './src/svgFolder'),  // 业务代码本地私有 svg 存放目录
+];
+
+export default {
+  entry: "./src/index.js",
+  svgSpriteLoaderDirs: svgSpriteDirs,
+  disableCSSModules: false,
+  publicPath: "/",
+  outputPath: "./dist",//编译后存放目录
+  extraPostCSSPlugins: [],
+  autoprefixer: null,
+  proxy: null,
+  externals: null,
+  multipage: false,
+  define: null,
+  theme: null,// 主题
+  extraBabelPlugins: [// 扩展配置
+    "transform-runtime",
+    ["import", { "libraryName": "antd", "style": "css" }]
+  ],
+  env: { // 环境配置
+    development: { // 开发环境
+      "extraBabelPlugins": [
+        'dva-hmr'
+      ]
+    },
+  },
+}

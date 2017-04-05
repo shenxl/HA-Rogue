@@ -1,0 +1,30 @@
+
+@font-face {font-family: "wpsicon_user";
+  src: url('iconfont.eot?t=1491402778752'); /* IE9*/
+  src: url('iconfont.eot?t=1491402778752#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1491402778752') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1491402778752') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1491402778752#wpsicon_user') format('svg'); /* iOS 4.1- */
+}
+
+.wpsicon_user {
+  font-family:"wpsicon_user" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.anticon-zhengfu:before { content: "\ee07"; }
+
+.anticon-daily:before { content: "\ee06"; }
+
+.anticon-qiye:before { content: "\ee05"; }
+
+.anticon-tongbi:before { content: "\ee04"; }
+
+.anticon-monthly:before { content: "\ee03"; }
+
+.anticon-jinrong:before { content: "\ee02"; }
+
+.anticon-version:before { content: "\ee01"; }
