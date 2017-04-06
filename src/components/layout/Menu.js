@@ -48,30 +48,6 @@ function CustomMenu({ layout }) {
           </Link>
         </Menu.Item>
       </SubMenu>
-
-      <SubMenu
-        key="analysis"
-        title={renderSubMenuTitle()}
-      >
-        <Menu.Item key="/dashboard/monthly">
-          <Link to="/dashboard/monthly">
-            <Icon type="zhengfu" />
-            <span className="nav-text">月活分析</span>
-          </Link>
-        </Menu.Item>
-        <Menu.Item key="/dashboard/daily">
-          <Link to="/dashboard/daily">
-            <Icon type="qiye" />
-            <span className="nav-text">日活分析</span>
-          </Link>
-        </Menu.Item>
-        <Menu.Item key="/dashboard/version">
-          <Link to="/dashboard/version">
-            <Icon type="jinrong" />
-            <span className="nav-text">版本情况</span>
-          </Link>
-        </Menu.Item>
-      </SubMenu>
       <Menu.Item key="/analysis/monthly">
         <Link to="/analysis/monthly">
           <Icon type="dot-chart" />

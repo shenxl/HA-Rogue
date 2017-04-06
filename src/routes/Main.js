@@ -52,7 +52,7 @@ function Main({ children, routes: baseroutes, layout, dispatch }) {
           {children}
         </Content>
         <Footer className={styles.footer}>
-          wps 统计平台 ©2017 Created by kso
+          wps 统计平台 ©2017 金山办公软件技术部
         </Footer>
       </Layout>
     </Layout>
